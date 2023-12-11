@@ -22,6 +22,7 @@ export default function Login() {
       setLoading(true)
       await login(emailRef.current.value, passwordRef.current.value)
       navigate('/subjects');
+      navigate('/dictionary');
     } catch {
       setError("Failed to login in")
     }

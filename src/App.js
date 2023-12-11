@@ -31,7 +31,7 @@ function App() {
                 <Route path="/subjects/mechanical-engineering" element={<MechanicalEngineering />} /> {/* ルーティング設定 */}
                 <Route path="/subjects/mechanical-engineering/results" element={<Results />} />
                 <Route path="/subjects/mechanical-engineering/results/recommended-courses" element={<RecommendedCourses />} />
-                <Route path="/dictionary" element={<VocabularyGraph />} /> {/* New route for Dictionary page */}
+                <Route path="/dictionary" element={<PrivateRoute><VocabularyGraph /></PrivateRoute>} />
               </Routes>
             </AuthProvider>
       </div>

@@ -1,13 +1,14 @@
-.dashboard-container {
-    width: 50%; /* 必要に応じて調整 */
-    margin: 20px auto; /* 上下のマージンを0にし、左右のマージンを自動調整 */
+  .dashboard-container {
+    width: 80%; /* Increase the width percentage as needed */
+    margin: 20px auto; /* Keep the top and bottom margin, auto adjust left and right */
     background-color: #FBF6FD;
     color: #333;
     padding: 30px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
+    max-width: 1000px; /* Increase max-width to allow for a wider container */
   }
+
   
   .dashboard-title {
     color: #CEB1F0;
@@ -70,14 +71,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%; /* 必要に応じて調整 */
+    width: 80%; /* 必要に応じて調整 */
     margin: 20px auto; /* 上下のマージンを0にし、左右のマージンを自動調整 */
     background-color: #FBF6FD;
     color: #333;
     padding: 30px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
+    max-width: 1000px;
   }
   .login-button-container {
     display: block;
