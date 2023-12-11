@@ -6,7 +6,7 @@ import './subjects.css';
 function Subjects() {
   const categories = {
       '人文学': [
-      { title: '..', to: '/subjects/philosophy' },
+      { title: '哲学', to: '/subjects/philosophy' },
       { title: '文学', to: '/subjects/literature' },
       { title: '言語学', to: '/subjects/linguistics' },
       { title: '史学', to: '/subjects/history' },
