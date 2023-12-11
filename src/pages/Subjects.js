@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Card from '../components/Card';
-import './Subjects.css';
+import './subjects.css';
 
 function Subjects() {
   const categories = {
