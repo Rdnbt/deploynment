@@ -64,6 +64,10 @@
   }
 }
 
+.card-container .card {
+  width: 150px;
+  height: 105px;
+}
 
 
 .subjects-intro {
