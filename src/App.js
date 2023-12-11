@@ -22,7 +22,7 @@ function App() {
       <div className="main-content"> {/* メインコンテンツのためのクラス */}
             <AuthProvider>
               <Routes>
-                <Route exact path="/" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
+                <Route exact path="/deploynment" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
                 <Route path="/update-profile" element={<PrivateRoute><UpdateProfile /></PrivateRoute>} />
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/login" element={<Login />} />
