@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/deploynment/static/css/main.4f0566c3.css",
-    "main.js": "/deploynment/static/js/main.6955dc23.js",
+    "main.js": "/deploynment/static/js/main.1f1f962b.js",
     "static/js/950.1c77252f.chunk.js": "/deploynment/static/js/950.1c77252f.chunk.js",
     "static/js/308.96899617.chunk.js": "/deploynment/static/js/308.96899617.chunk.js",
+    "static/media/clap-hand-and-lettering-coming-soon-sticker-3.gif": "/deploynment/static/media/clap-hand-and-lettering-coming-soon-sticker-3.8dbf9546997dfe74880c.gif",
     "static/media/flower.png": "/deploynment/static/media/flower.35bd8b40e2451721ccdf.png",
     "index.html": "/deploynment/index.html",
     "main.4f0566c3.css.map": "/deploynment/static/css/main.4f0566c3.css.map",
-    "main.6955dc23.js.map": "/deploynment/static/js/main.6955dc23.js.map"
+    "main.1f1f962b.js.map": "/deploynment/static/js/main.1f1f962b.js.map"
   },
   "entrypoints": [
     "static/css/main.4f0566c3.css",
-    "static/js/main.6955dc23.js"
+    "static/js/main.1f1f962b.js"
   ]
 }
