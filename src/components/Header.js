@@ -6,7 +6,7 @@ const Header = memo(() => {
   return (
     <header className="header">
       <Link to="/subjects" className="header-logo">
-        <img src="/brand-icon.png" alt="Brand" />
+        <img url='/public/brand-icon.png' alt="Brand" />
       </Link>
       <nav className="header-nav">
         <ul>
