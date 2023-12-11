@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import './Results.css';
+import hand from './clap-hand-and-lettering-coming-soon-sticker-3.gif'
 
 const Results = () => {
   const [showAnimation, setShowAnimation] = useState(true);
@@ -29,7 +30,7 @@ const Results = () => {
       <Header />
       {showAnimation ? (
         <div className="animation-container">
-          <img src="/clap-hand-and-lettering-coming-soon-sticker-3.gif" alt="Coming Soon" />
+          <img src={hand} alt="Coming Soon" />
         </div>
       ) : (
         <div className="score-container">

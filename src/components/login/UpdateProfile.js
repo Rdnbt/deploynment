@@ -34,7 +34,7 @@ export default function UpdateProfile() {
 
         Promise.all(promises)
             .then(() => {
-                navigate("/");
+                navigate("/deploynment");
             })
             .catch((error) => {
                 setError("Failed to update account: " + error.message);
@@ -92,7 +92,7 @@ export default function UpdateProfile() {
                 </Card.Body>
             </Card>
             <div className="w-100 text-center mt-2">
-                <Link to="/">Cancel</Link>
+                <Link to="/deploynment">Cancel</Link>
             </div>
         </>
     );
