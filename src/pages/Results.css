@@ -1,0 +1,50 @@
+.animation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 画面の高さを満たす */
+  }
+  
+  .score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .score-ring {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* 影を追加 */
+    background: linear-gradient(145deg, #ffd6e7, #f9c6ff); /* パステルカラーのグラディエント */
+    transition: all 0.3s ease-in-out; /* アニメーション効果 */
+  }
+  
+  .score-text {
+    color: #333;
+    font-weight: bold;
+  }
+  
+
+  .study-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* あなたの好みの色に */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .study-button:hover {
+    background-color: #45a049; /* ホバー時の色 */
+  }
+  

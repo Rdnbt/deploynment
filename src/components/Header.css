@@ -1,0 +1,41 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #F8F8F8; 
+    color: #333333;
+    padding: 10px 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-logo img {
+    height: 40px; /* ロゴのサイズ調整 */
+  }
+  
+  .header-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-nav ul li {
+    margin-left: 20px;
+  }
+  
+  .header-nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header-nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .main-content {
+    padding-top: 60px; /* ヘッダーの高さに応じて調整 */
+  }

@@ -1,0 +1,6 @@
+.recommended-courses-container {
+    padding: 20px; /* 余白の追加 */
+    margin: auto; /* 中央配置 */
+    max-width: 800px; /* 最大幅の設定 */
+  }
+  

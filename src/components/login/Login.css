@@ -1,0 +1,100 @@
+.dashboard-container {
+    width: 50%; /* 必要に応じて調整 */
+    margin: 20px auto; /* 上下のマージンを0にし、左右のマージンを自動調整 */
+    background-color: #FBF6FD;
+    color: #333;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+  }
+  
+  .dashboard-title {
+    color: #CEB1F0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-email {
+    background-color: white;
+    border: 1px solid #CEB1F0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  
+  .dashboard-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #FBF6FD;
+    border: 1px solid #CEB1F0;
+  }
+  
+  .update {
+    background-color: #CEB1F0;
+    text-align: center;
+  }
+  .centered-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .logout {
+    background-color: #FBF6FD;
+    color: #CEB1F0;
+    border: 1px solid #CEB1F0;
+    text-align: center;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.8); /* 半透明 */
+    backdrop-filter: blur(10px); /* ブラー効果でモザイクグラス風 */
+    border-radius: 15px; /* 角を丸める */
+    padding: 20px; /* 内側の余白 */
+    margin-bottom: 20px; /* 下の要素との余白 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 影をつける */
+  }
+  
+  .logout-button-container {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%; /* 必要に応じて調整 */
+    margin: 20px auto; /* 上下のマージンを0にし、左右のマージンを自動調整 */
+    background-color: #FBF6FD;
+    color: #333;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+  }
+  .login-button-container {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #CEB1F0;
+    font-weight: bold;
+    background-color: #FBF6FD;
+    border: 1px solid #CEB1F0;
+    margin-bottom: 3px;
+  }
+  
+
+  .text-label {
+    color: #CEB1F0;
+    font-size: 1.2em; /* 文字サイズを大きくします */
+  }

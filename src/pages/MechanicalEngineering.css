@@ -1,0 +1,123 @@
+.mechanical-engineering-page {
+    background-color: rgba(248, 248, 248, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white; /* テキストの色を白に設定（黒背景に対応） */
+    padding-top: 30px;
+    /* 他のスタイリング */
+}
+
+.word-test {
+  margin-bottom: 7px;
+  padding: 5px;
+}
+
+.word-test h3 {
+  margin: 0 0px 5px 0;
+  color: #333;
+  text-align: center;
+}
+
+.choice-buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.choice-button:hover {
+  background-color: #e2e2e2;
+}
+
+.calculate-skill-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  background:linear-gradient(90deg, #9A4DFF 0%, #5EEBFF 100%);
+  color: #fff;
+  font-size: 1em;
+}
+
+.calculate-skill-button:hover {
+  background-color: #45a049;
+}
+
+.choice-button {
+  padding: 2px 5px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: 1px solid;
+  white-space: nowrap; /* テキストを改行しない */
+  overflow: hidden; /* はみ出たテキストを隠す */
+  text-overflow: ellipsis; /* テキストがはみ出た場合に省略記号を表示 */
+  display: flex; /* フレックスボックスを使用 */
+  align-items: center; /* 中央揃え */
+  justify-content: center; /* 中央揃え */
+}
+
+.choice-button div {
+  font-size: 100%; /* デフォルトのフォントサイズ */
+  max-width: 100%; /* 親要素の幅に合わせて最大幅を設定 */
+}
+
+.choice-button-1 {
+  top: 0;
+  color: #3290FF;
+  border-color: #3290FF;
+  background: white;
+}
+
+.choice-button-2 {
+  top: 55px;
+  text-align: center;
+  color: #F46700;
+  border-color: #F46700;
+  background: white;
+}
+
+.choice-button-3 {
+  top: 110px;
+  color: #9800F4;
+  border-color: #9800F4;
+  background: white;
+}
+
+.choice-button.selected-1 {
+  background: #B4D6FF;
+}
+
+.choice-button.selected-2 {
+  background: #FFD2B0;
+}
+
+.choice-button.selected-3 {
+  background: #DBA1FF;
+}
+
+.progress-container {
+  position: fixed;
+  top: 60px; /* ヘッダーの高さに合わせる */
+  width: 100%;
+  z-index: 1000;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 20px;
+  background-color: #af4c89;
+  border-radius: 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-text {
+  text-align: center;
+  color: #1a1a1a;
+  margin-top: -20px; /* 進捗バーとの間隔 */
+}

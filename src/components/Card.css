@@ -1,0 +1,31 @@
+.card {
+  flex: 0 0 auto;
+  width: 160px;
+  height: 120px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none; /* IE 10+ 用: スクロールバーを非表示にする */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+}
+
+
+.card h3 {
+  color: #333; /* タイトルのテキスト色 */
+  margin-top: 10px; /* タイトルの上のマージンを追加 */
+}
+
+.card:hover {
+  background-color: #e2e2e2; /* ホバー時の背景色を変更 */
+  transform: scale(1.05); /* 少し拡大する */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* 影を大きくする */
+}
